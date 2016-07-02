@@ -11,5 +11,11 @@
 
     <groupId>Spitter</groupId>
     <artifactId>spitter-persistence-common</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>Spitter</groupId>
+            <artifactId>spitter-domain-jpa</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
